@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  const [color, setColor] = useState("Yellow")
+  const [color, setColor] = useState("Black")
 
   return (
     <>
