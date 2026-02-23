@@ -21,7 +21,7 @@ function App() {
   }
 
   const deleteTodo =(id) =>{
-    setTodos((prev) => prev.filter((todoTask) => todoTask !== id ))
+    setTodos((prev) => prev.filter((todoTask) => todoTask.id !== id ))
   }
 
   const toggleComplete = (id) =>{
